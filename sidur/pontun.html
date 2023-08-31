@@ -13,27 +13,91 @@
     <h1>Panta</h1>
     <p>Hér getur þú pantað borð eða rétti</p>
     <h2>Panta Borð</h2>
+    <form action=""></form>
     <ul>
-        <li>Hvenær</li>
-        <li>Hversu margir</li>
-        <li>Athugasemdir</li>
+        <li> Hvenær?
+            <div>
+                <input type="datetime-local">
+            </div>
+        </li>
+        <li> Hversu margir     
+            <div>
+                <input type="radio" id="fjoldi1" name="maeting"/>
+                <label for="fjoldi1">1</label>
+      
+                <input type="radio" id="fjoldi2" name="maeting"/>
+                <label for="fjoldi2">2</label>
+      
+                <input type="radio" id="fjoldi3" name="maeting"/>
+                <label for="fjoldi3">3</label>
+
+                <input type="radio" id="fjoldi4" name="maeting"/>
+                <label for="fjoldi4">4</label>
+
+                <input type="radio" id="fjoldi5" name="maeting"/>
+                <label for="fjoldi5">5</label>
+            </div>
+        </li>
+        <li> Athugasemdir
+            <div>
+                <input type="text">
+            </div>
+        </li>
     </ul>
     <h2>Panta Rétti</h2>
     <ul>
-        <li>Heimilisfang</li>
-        <li>Hvaða réttur/réttir</li>
-        <li>Athugasemdir</li>
+        <li> Heimilisfang
+            <div>
+                <input type="text">
+            </div>
+        </li>
+        <li>Hvaða réttur/réttir
+            <div>
+                <input type="checkbox" id="id1" name="rettur"/>
+                <label for="fjoldi1">1</label>
+          
+                <input type="checkbox" id="id2" name="rettur"/>
+                <label for="fjoldi2">2</label>
+          
+                <input type="checkbox" id="id3" name="rettur"/>
+                <label for="fjoldi3">3</label>
+    
+                <input type="checkbox" id="id4" name="rettur"/>
+                <label for="fjoldi4">4</label>
+            </div>
+        </li>
+        <li> Athugasemdir
+            <div>
+                <input type="text">
+            </div>
+        </li>
     </ul>
     <h2>Upplýsingarnar Þínar</h2>
     <ul>
-        <li>Símanúmer</li>
-        <li>Nafn</li>
-        <li>Netfang</li>
+        <li> Símanúmer
+            <div>
+                <input type="tel">
+            </div>
+        </li>
+        <li> Nafn
+            <div>
+                <input type="text">
+            </div>
+        </li>
+        <li> Netfang
+            <div>
+                <input type="email">
+            </div>
+        </li>
     </ul>
     <h2>Samþykkja og Panta</h2>
     <ul>
-        <li>Ég samþykki skilmála RaggaRokks</li>
-        <li>Panta</li>
+        <li> Ég samþykki skilmála RaggaRokks
+            <input type="checkbox">
+        </li>
+        <li> Panta
+            <input type="submit">
+        </li>
     </ul>
     <hr>
     <footer>
